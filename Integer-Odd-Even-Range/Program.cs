@@ -112,13 +112,13 @@ namespace Integer_Odd_Even_Range
                 //Integer even
                 if(integer >= 2 && integer <= 25)
                 {
-                    Console.WriteLine($"{name} Even and less than 25.");
+                    Console.WriteLine($"{name} the number is Even and less than 25.");
                 } else if (integer >= 26 && integer <= 60)
                 {
-                    Console.WriteLine($"{name} Even.");
+                    Console.WriteLine($"{name} the number is Even.");
                 } else
                 {
-                    Console.WriteLine($"{name} {integer} Even.");
+                    Console.WriteLine($"{name} the number {integer} is Even.");
                 }
             }
             else
